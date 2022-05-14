@@ -1,6 +1,7 @@
 import Header from "../header/Header"
 import Tours from "../tours/Tours";
 import Footer from "../footer/Footer";
+import { Link } from "react-router-dom";
 const countries = require('../../data/db.json')
 
 function Home(){
