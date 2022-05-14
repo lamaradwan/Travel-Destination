@@ -1,6 +1,7 @@
+import './Tours.css';
 function Tours(props){
 return(
-    <div>
+    <div className='destination'>
         <h3>{props.countryName}</h3>
         <img src={props.image}/>
         <hr/>
