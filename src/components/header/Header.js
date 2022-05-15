@@ -7,9 +7,6 @@ function Header(){
     <>
     <h1 className="title">This is the tours website header, welcome ..</h1>
     <Navbar/>
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-    </Routes>
     </>
     )
 }

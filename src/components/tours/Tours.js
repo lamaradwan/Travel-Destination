@@ -1,11 +1,9 @@
 import './Tours.css';
+import Tour from './tour/Tour';
+const tour = require('../../data/db.json')
 function Tours(props){
 return(
-    <div className='destination'>
-        <h3>{props.countryName}</h3>
-        <img src={props.image}/>
-        <hr/>
-    </div>
+    <Tour tour = {tour}/>
 )
 }
 export default Tours;
